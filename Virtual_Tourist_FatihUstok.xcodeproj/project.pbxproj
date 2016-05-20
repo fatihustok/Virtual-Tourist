@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ADEB67DC1CEEEA2A00DED270 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEB67DB1CEEEA2A00DED270 /* AppDelegate.swift */; };
+		ADEB67DE1CEEEA2A00DED270 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEB67DD1CEEEA2A00DED270 /* ViewController.swift */; };
+		ADEB67E11CEEEA2A00DED270 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADEB67DF1CEEEA2A00DED270 /* Main.storyboard */; };
+		ADEB67E41CEEEA2A00DED270 /* Virtual_Tourist_FatihUstok.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ADEB67E21CEEEA2A00DED270 /* Virtual_Tourist_FatihUstok.xcdatamodeld */; };
+		ADEB67E61CEEEA2A00DED270 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADEB67E51CEEEA2A00DED270 /* Assets.xcassets */; };
+		ADEB67E91CEEEA2A00DED270 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADEB67E71CEEEA2A00DED270 /* LaunchScreen.storyboard */; };
+		ADEB67F41CEEEA2B00DED270 /* Virtual_Tourist_FatihUstokTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEB67F31CEEEA2B00DED270 /* Virtual_Tourist_FatihUstokTests.swift */; };
+		ADEB67FF1CEEEA2B00DED270 /* Virtual_Tourist_FatihUstokUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEB67FE1CEEEA2B00DED270 /* Virtual_Tourist_FatihUstokUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ADEB67F01CEEEA2B00DED270 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADEB67D01CEEEA2A00DED270 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADEB67D71CEEEA2A00DED270;
+			remoteInfo = Virtual_Tourist_FatihUstok;
+		};
+		ADEB67FB1CEEEA2B00DED270 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADEB67D01CEEEA2A00DED270 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADEB67D71CEEEA2A00DED270;
+			remoteInfo = Virtual_Tourist_FatihUstok;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ADEB67D81CEEEA2A00DED270 /* Virtual_Tourist_FatihUstok.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Virtual_Tourist_FatihUstok.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADEB67DB1CEEEA2A00DED270 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ADEB67DD1CEEEA2A00DED270 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ADEB67E01CEEEA2A00DED270 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ADEB67E31CEEEA2A00DED270 /* Virtual_Tourist_FatihUstok.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Virtual_Tourist_FatihUstok.xcdatamodel; sourceTree = "<group>"; };
+		ADEB67E51CEEEA2A00DED270 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ADEB67E81CEEEA2A00DED270 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ADEB67EA1CEEEA2A00DED270 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADEB67EF1CEEEA2B00DED270 /* Virtual_Tourist_FatihUstokTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Virtual_Tourist_FatihUstokTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADEB67F31CEEEA2B00DED270 /* Virtual_Tourist_FatihUstokTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Virtual_Tourist_FatihUstokTests.swift; sourceTree = "<group>"; };
+		ADEB67F51CEEEA2B00DED270 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADEB67FA1CEEEA2B00DED270 /* Virtual_Tourist_FatihUstokUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Virtual_Tourist_FatihUstokUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADEB67FE1CEEEA2B00DED270 /* Virtual_Tourist_FatihUstokUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Virtual_Tourist_FatihUstokUITests.swift; sourceTree = "<group>"; };
+		ADEB68001CEEEA2B00DED270 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ADEB67D51CEEEA2A00DED270 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADEB67EC1CEEEA2B00DED270 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADEB67F71CEEEA2B00DED270 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ADEB67CF1CEEEA2A00DED270 = {
+			isa = PBXGroup;
+			children = (
+				ADEB67DA1CEEEA2A00DED270 /* Virtual_Tourist_FatihUstok */,
+				ADEB67F21CEEEA2B00DED270 /* Virtual_Tourist_FatihUstokTests */,
+				ADEB67FD1CEEEA2B00DED270 /* Virtual_Tourist_FatihUstokUITests */,
+				ADEB67D91CEEEA2A00DED270 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ADEB67D91CEEEA2A00DED270 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ADEB67D81CEEEA2A00DED270 /* Virtual_Tourist_FatihUstok.app */,
+				ADEB67EF1CEEEA2B00DED270 /* Virtual_Tourist_FatihUstokTests.xctest */,
+				ADEB67FA1CEEEA2B00DED270 /* Virtual_Tourist_FatihUstokUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ADEB67DA1CEEEA2A00DED270 /* Virtual_Tourist_FatihUstok */ = {
+			isa = PBXGroup;
+			children = (
+				ADEB67DB1CEEEA2A00DED270 /* AppDelegate.swift */,
+				ADEB67DD1CEEEA2A00DED270 /* ViewController.swift */,
+				ADEB67DF1CEEEA2A00DED270 /* Main.storyboard */,
+				ADEB67E51CEEEA2A00DED270 /* Assets.xcassets */,
+				ADEB67E71CEEEA2A00DED270 /* LaunchScreen.storyboard */,
+				ADEB67EA1CEEEA2A00DED270 /* Info.plist */,
+				ADEB67E21CEEEA2A00DED270 /* Virtual_Tourist_FatihUstok.xcdatamodeld */,
+			);
+			path = Virtual_Tourist_FatihUstok;
+			sourceTree = "<group>";
+		};
+		ADEB67F21CEEEA2B00DED270 /* Virtual_Tourist_FatihUstokTests */ = {
+			isa = PBXGroup;
+			children = (
+				ADEB67F31CEEEA2B00DED270 /* Virtual_Tourist_FatihUstokTests.swift */,
+				ADEB67F51CEEEA2B00DED270 /* Info.plist */,
+			);
+			path = Virtual_Tourist_FatihUstokTests;
+			sourceTree = "<group>";
+		};
+		ADEB67FD1CEEEA2B00DED270 /* Virtual_Tourist_FatihUstokUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ADEB67FE1CEEEA2B00DED270 /* Virtual_Tourist_FatihUstokUITests.swift */,
+				ADEB68001CEEEA2B00DED270 /* Info.plist */,
+			);
+			path = Virtual_Tourist_FatihUstokUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ADEB67D71CEEEA2A00DED270 /* Virtual_Tourist_FatihUstok */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADEB68031CEEEA2B00DED270 /* Build configuration list for PBXNativeTarget "Virtual_Tourist_FatihUstok" */;
+			buildPhases = (
+				ADEB67D41CEEEA2A00DED270 /* Sources */,
+				ADEB67D51CEEEA2A00DED270 /* Frameworks */,
+				ADEB67D61CEEEA2A00DED270 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Virtual_Tourist_FatihUstok;
+			productName = Virtual_Tourist_FatihUstok;
+			productReference = ADEB67D81CEEEA2A00DED270 /* Virtual_Tourist_FatihUstok.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ADEB67EE1CEEEA2B00DED270 /* Virtual_Tourist_FatihUstokTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADEB68061CEEEA2B00DED270 /* Build configuration list for PBXNativeTarget "Virtual_Tourist_FatihUstokTests" */;
+			buildPhases = (
+				ADEB67EB1CEEEA2B00DED270 /* Sources */,
+				ADEB67EC1CEEEA2B00DED270 /* Frameworks */,
+				ADEB67ED1CEEEA2B00DED270 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADEB67F11CEEEA2B00DED270 /* PBXTargetDependency */,
+			);
+			name = Virtual_Tourist_FatihUstokTests;
+			productName = Virtual_Tourist_FatihUstokTests;
+			productReference = ADEB67EF1CEEEA2B00DED270 /* Virtual_Tourist_FatihUstokTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ADEB67F91CEEEA2B00DED270 /* Virtual_Tourist_FatihUstokUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADEB68091CEEEA2B00DED270 /* Build configuration list for PBXNativeTarget "Virtual_Tourist_FatihUstokUITests" */;
+			buildPhases = (
+				ADEB67F61CEEEA2B00DED270 /* Sources */,
+				ADEB67F71CEEEA2B00DED270 /* Frameworks */,
+				ADEB67F81CEEEA2B00DED270 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADEB67FC1CEEEA2B00DED270 /* PBXTargetDependency */,
+			);
+			name = Virtual_Tourist_FatihUstokUITests;
+			productName = Virtual_Tourist_FatihUstokUITests;
+			productReference = ADEB67FA1CEEEA2B00DED270 /* Virtual_Tourist_FatihUstokUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ADEB67D01CEEEA2A00DED270 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Refik Fatih Ustok";
+				TargetAttributes = {
+					ADEB67D71CEEEA2A00DED270 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					ADEB67EE1CEEEA2B00DED270 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = ADEB67D71CEEEA2A00DED270;
+					};
+					ADEB67F91CEEEA2B00DED270 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = ADEB67D71CEEEA2A00DED270;
+					};
+				};
+			};
+			buildConfigurationList = ADEB67D31CEEEA2A00DED270 /* Build configuration list for PBXProject "Virtual_Tourist_FatihUstok" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ADEB67CF1CEEEA2A00DED270;
+			productRefGroup = ADEB67D91CEEEA2A00DED270 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ADEB67D71CEEEA2A00DED270 /* Virtual_Tourist_FatihUstok */,
+				ADEB67EE1CEEEA2B00DED270 /* Virtual_Tourist_FatihUstokTests */,
+				ADEB67F91CEEEA2B00DED270 /* Virtual_Tourist_FatihUstokUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ADEB67D61CEEEA2A00DED270 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADEB67E91CEEEA2A00DED270 /* LaunchScreen.storyboard in Resources */,
+				ADEB67E61CEEEA2A00DED270 /* Assets.xcassets in Resources */,
+				ADEB67E11CEEEA2A00DED270 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADEB67ED1CEEEA2B00DED270 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADEB67F81CEEEA2B00DED270 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ADEB67D41CEEEA2A00DED270 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADEB67E41CEEEA2A00DED270 /* Virtual_Tourist_FatihUstok.xcdatamodeld in Sources */,
+				ADEB67DE1CEEEA2A00DED270 /* ViewController.swift in Sources */,
+				ADEB67DC1CEEEA2A00DED270 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADEB67EB1CEEEA2B00DED270 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADEB67F41CEEEA2B00DED270 /* Virtual_Tourist_FatihUstokTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADEB67F61CEEEA2B00DED270 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADEB67FF1CEEEA2B00DED270 /* Virtual_Tourist_FatihUstokUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ADEB67F11CEEEA2B00DED270 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADEB67D71CEEEA2A00DED270 /* Virtual_Tourist_FatihUstok */;
+			targetProxy = ADEB67F01CEEEA2B00DED270 /* PBXContainerItemProxy */;
+		};
+		ADEB67FC1CEEEA2B00DED270 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADEB67D71CEEEA2A00DED270 /* Virtual_Tourist_FatihUstok */;
+			targetProxy = ADEB67FB1CEEEA2B00DED270 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ADEB67DF1CEEEA2A00DED270 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADEB67E01CEEEA2A00DED270 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ADEB67E71CEEEA2A00DED270 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADEB67E81CEEEA2A00DED270 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ADEB68011CEEEA2B00DED270 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ADEB68021CEEEA2B00DED270 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ADEB68041CEEEA2B00DED270 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Virtual_Tourist_FatihUstok/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fatihustok.Virtual-Tourist-FatihUstok";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ADEB68051CEEEA2B00DED270 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Virtual_Tourist_FatihUstok/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fatihustok.Virtual-Tourist-FatihUstok";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ADEB68071CEEEA2B00DED270 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Virtual_Tourist_FatihUstokTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fatihustok.Virtual-Tourist-FatihUstokTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Virtual_Tourist_FatihUstok.app/Virtual_Tourist_FatihUstok";
+			};
+			name = Debug;
+		};
+		ADEB68081CEEEA2B00DED270 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Virtual_Tourist_FatihUstokTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fatihustok.Virtual-Tourist-FatihUstokTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Virtual_Tourist_FatihUstok.app/Virtual_Tourist_FatihUstok";
+			};
+			name = Release;
+		};
+		ADEB680A1CEEEA2B00DED270 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Virtual_Tourist_FatihUstokUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fatihustok.Virtual-Tourist-FatihUstokUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Virtual_Tourist_FatihUstok;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		ADEB680B1CEEEA2B00DED270 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Virtual_Tourist_FatihUstokUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fatihustok.Virtual-Tourist-FatihUstokUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Virtual_Tourist_FatihUstok;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ADEB67D31CEEEA2A00DED270 /* Build configuration list for PBXProject "Virtual_Tourist_FatihUstok" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADEB68011CEEEA2B00DED270 /* Debug */,
+				ADEB68021CEEEA2B00DED270 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADEB68031CEEEA2B00DED270 /* Build configuration list for PBXNativeTarget "Virtual_Tourist_FatihUstok" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADEB68041CEEEA2B00DED270 /* Debug */,
+				ADEB68051CEEEA2B00DED270 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ADEB68061CEEEA2B00DED270 /* Build configuration list for PBXNativeTarget "Virtual_Tourist_FatihUstokTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADEB68071CEEEA2B00DED270 /* Debug */,
+				ADEB68081CEEEA2B00DED270 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ADEB68091CEEEA2B00DED270 /* Build configuration list for PBXNativeTarget "Virtual_Tourist_FatihUstokUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADEB680A1CEEEA2B00DED270 /* Debug */,
+				ADEB680B1CEEEA2B00DED270 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		ADEB67E21CEEEA2A00DED270 /* Virtual_Tourist_FatihUstok.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				ADEB67E31CEEEA2A00DED270 /* Virtual_Tourist_FatihUstok.xcdatamodel */,
+			);
+			currentVersion = ADEB67E31CEEEA2A00DED270 /* Virtual_Tourist_FatihUstok.xcdatamodel */;
+			path = Virtual_Tourist_FatihUstok.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = ADEB67D01CEEEA2A00DED270 /* Project object */;
+}
