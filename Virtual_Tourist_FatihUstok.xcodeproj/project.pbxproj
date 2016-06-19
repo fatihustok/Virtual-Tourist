@@ -10,11 +10,23 @@
 		ADEB67DC1CEEEA2A00DED270 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEB67DB1CEEEA2A00DED270 /* AppDelegate.swift */; };
 		ADEB67DE1CEEEA2A00DED270 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEB67DD1CEEEA2A00DED270 /* ViewController.swift */; };
 		ADEB67E11CEEEA2A00DED270 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADEB67DF1CEEEA2A00DED270 /* Main.storyboard */; };
-		ADEB67E41CEEEA2A00DED270 /* Virtual_Tourist_FatihUstok.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ADEB67E21CEEEA2A00DED270 /* Virtual_Tourist_FatihUstok.xcdatamodeld */; };
 		ADEB67E61CEEEA2A00DED270 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADEB67E51CEEEA2A00DED270 /* Assets.xcassets */; };
 		ADEB67E91CEEEA2A00DED270 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADEB67E71CEEEA2A00DED270 /* LaunchScreen.storyboard */; };
 		ADEB67F41CEEEA2B00DED270 /* Virtual_Tourist_FatihUstokTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEB67F31CEEEA2B00DED270 /* Virtual_Tourist_FatihUstokTests.swift */; };
 		ADEB67FF1CEEEA2B00DED270 /* Virtual_Tourist_FatihUstokUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEB67FE1CEEEA2B00DED270 /* Virtual_Tourist_FatihUstokUITests.swift */; };
+		ADEB680D1CEEEEDD00DED270 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEB680C1CEEEEDD00DED270 /* MapViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		ADEB68101CEEEF7D00DED270 /* Data.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ADEB680E1CEEEF7D00DED270 /* Data.xcdatamodeld */; settings = {ASSET_TAGS = (); }; };
+		ADEB68121CEEF23F00DED270 /* Pin.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEB68111CEEF23F00DED270 /* Pin.swift */; settings = {ASSET_TAGS = (); }; };
+		ADEB68141CEEF25600DED270 /* Flickr.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEB68131CEEF25600DED270 /* Flickr.swift */; settings = {ASSET_TAGS = (); }; };
+		ADEB68161CEEF26E00DED270 /* PinLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEB68151CEEF26E00DED270 /* PinLogic.swift */; settings = {ASSET_TAGS = (); }; };
+		ADEB68181CEEF36900DED270 /* LatestMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEB68171CEEF36900DED270 /* LatestMap.swift */; settings = {ASSET_TAGS = (); }; };
+		ADEB681A1CEEF38600DED270 /* CoreDataStackManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEB68191CEEF38600DED270 /* CoreDataStackManager.swift */; settings = {ASSET_TAGS = (); }; };
+		ADEB681C1CEEF39D00DED270 /* CacheForMemory.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEB681B1CEEF39D00DED270 /* CacheForMemory.swift */; settings = {ASSET_TAGS = (); }; };
+		ADEB681E1CEEF3B400DED270 /* CacheForFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEB681D1CEEF3B400DED270 /* CacheForFile.swift */; settings = {ASSET_TAGS = (); }; };
+		ADEB68201CEEF3D800DED270 /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEB681F1CEEF3D800DED270 /* ApiClient.swift */; settings = {ASSET_TAGS = (); }; };
+		ADEB68221CEEF3F800DED270 /* FlickrClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEB68211CEEF3F800DED270 /* FlickrClient.swift */; settings = {ASSET_TAGS = (); }; };
+		ADEB68281CEEFA7500DED270 /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEB68271CEEFA7500DED270 /* PhotoCollectionViewCell.swift */; settings = {ASSET_TAGS = (); }; };
+		ADEB68301CEF00A700DED270 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEB682F1CEF00A700DED270 /* CollectionViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,11 +47,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AD53E2D41CF0094E0014F8D8 /* Data.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Data.xcdatamodel; sourceTree = "<group>"; };
+		AD53E2D51CF00C4D0014F8D8 /* Data.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Data.xcdatamodel; sourceTree = "<group>"; };
 		ADEB67D81CEEEA2A00DED270 /* Virtual_Tourist_FatihUstok.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Virtual_Tourist_FatihUstok.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		ADEB67DB1CEEEA2A00DED270 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		ADEB67DD1CEEEA2A00DED270 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ADEB67DB1CEEEA2A00DED270 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Virtual_Tourist_FatihUstok/AppDelegate.swift; sourceTree = "<group>"; };
+		ADEB67DD1CEEEA2A00DED270 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = Virtual_Tourist_FatihUstok/ViewController.swift; sourceTree = "<group>"; };
 		ADEB67E01CEEEA2A00DED270 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		ADEB67E31CEEEA2A00DED270 /* Virtual_Tourist_FatihUstok.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Virtual_Tourist_FatihUstok.xcdatamodel; sourceTree = "<group>"; };
 		ADEB67E51CEEEA2A00DED270 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ADEB67E81CEEEA2A00DED270 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ADEB67EA1CEEEA2A00DED270 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +62,19 @@
 		ADEB67FA1CEEEA2B00DED270 /* Virtual_Tourist_FatihUstokUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Virtual_Tourist_FatihUstokUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADEB67FE1CEEEA2B00DED270 /* Virtual_Tourist_FatihUstokUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Virtual_Tourist_FatihUstokUITests.swift; sourceTree = "<group>"; };
 		ADEB68001CEEEA2B00DED270 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADEB680C1CEEEEDD00DED270 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MapViewController.swift; path = Virtual_Tourist_FatihUstok/MapViewController.swift; sourceTree = "<group>"; };
+		ADEB680F1CEEEF7D00DED270 /* Data.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Data.xcdatamodel; sourceTree = "<group>"; };
+		ADEB68111CEEF23F00DED270 /* Pin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pin.swift; sourceTree = "<group>"; };
+		ADEB68131CEEF25600DED270 /* Flickr.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Flickr.swift; sourceTree = "<group>"; };
+		ADEB68151CEEF26E00DED270 /* PinLogic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinLogic.swift; sourceTree = "<group>"; };
+		ADEB68171CEEF36900DED270 /* LatestMap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LatestMap.swift; sourceTree = "<group>"; };
+		ADEB68191CEEF38600DED270 /* CoreDataStackManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStackManager.swift; sourceTree = "<group>"; };
+		ADEB681B1CEEF39D00DED270 /* CacheForMemory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CacheForMemory.swift; sourceTree = "<group>"; };
+		ADEB681D1CEEF3B400DED270 /* CacheForFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CacheForFile.swift; sourceTree = "<group>"; };
+		ADEB681F1CEEF3D800DED270 /* ApiClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ApiClient.swift; path = Virtual_Tourist_FatihUstok/ApiClient.swift; sourceTree = "<group>"; };
+		ADEB68211CEEF3F800DED270 /* FlickrClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FlickrClient.swift; path = Virtual_Tourist_FatihUstok/FlickrClient.swift; sourceTree = "<group>"; };
+		ADEB68271CEEFA7500DED270 /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PhotoCollectionViewCell.swift; path = Virtual_Tourist_FatihUstok/PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
+		ADEB682F1CEF00A700DED270 /* CollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +125,13 @@
 		ADEB67DA1CEEEA2A00DED270 /* Virtual_Tourist_FatihUstok */ = {
 			isa = PBXGroup;
 			children = (
-				ADEB67DB1CEEEA2A00DED270 /* AppDelegate.swift */,
-				ADEB67DD1CEEEA2A00DED270 /* ViewController.swift */,
+				ADEB68231CEEF5D100DED270 /* Model */,
+				ADEB68241CEEF60500DED270 /* Controller */,
 				ADEB67DF1CEEEA2A00DED270 /* Main.storyboard */,
 				ADEB67E51CEEEA2A00DED270 /* Assets.xcassets */,
 				ADEB67E71CEEEA2A00DED270 /* LaunchScreen.storyboard */,
 				ADEB67EA1CEEEA2A00DED270 /* Info.plist */,
-				ADEB67E21CEEEA2A00DED270 /* Virtual_Tourist_FatihUstok.xcdatamodeld */,
+				ADEB680E1CEEEF7D00DED270 /* Data.xcdatamodeld */,
 			);
 			path = Virtual_Tourist_FatihUstok;
 			sourceTree = "<group>";
@@ -126,6 +152,36 @@
 				ADEB68001CEEEA2B00DED270 /* Info.plist */,
 			);
 			path = Virtual_Tourist_FatihUstokUITests;
+			sourceTree = "<group>";
+		};
+		ADEB68231CEEF5D100DED270 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ADEB68111CEEF23F00DED270 /* Pin.swift */,
+				ADEB68131CEEF25600DED270 /* Flickr.swift */,
+				ADEB68151CEEF26E00DED270 /* PinLogic.swift */,
+				ADEB68171CEEF36900DED270 /* LatestMap.swift */,
+				ADEB68191CEEF38600DED270 /* CoreDataStackManager.swift */,
+				ADEB681B1CEEF39D00DED270 /* CacheForMemory.swift */,
+				ADEB681D1CEEF3B400DED270 /* CacheForFile.swift */,
+				ADEB67DB1CEEEA2A00DED270 /* AppDelegate.swift */,
+				ADEB681F1CEEF3D800DED270 /* ApiClient.swift */,
+				ADEB68211CEEF3F800DED270 /* FlickrClient.swift */,
+			);
+			name = Model;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		ADEB68241CEEF60500DED270 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				ADEB67DD1CEEEA2A00DED270 /* ViewController.swift */,
+				ADEB680C1CEEEEDD00DED270 /* MapViewController.swift */,
+				ADEB682F1CEF00A700DED270 /* CollectionViewController.swift */,
+				ADEB68271CEEFA7500DED270 /* PhotoCollectionViewCell.swift */,
+			);
+			name = Controller;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,9 +314,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ADEB67E41CEEEA2A00DED270 /* Virtual_Tourist_FatihUstok.xcdatamodeld in Sources */,
+				ADEB68141CEEF25600DED270 /* Flickr.swift in Sources */,
+				ADEB681C1CEEF39D00DED270 /* CacheForMemory.swift in Sources */,
+				ADEB68121CEEF23F00DED270 /* Pin.swift in Sources */,
+				ADEB681E1CEEF3B400DED270 /* CacheForFile.swift in Sources */,
+				ADEB681A1CEEF38600DED270 /* CoreDataStackManager.swift in Sources */,
 				ADEB67DE1CEEEA2A00DED270 /* ViewController.swift in Sources */,
+				ADEB68161CEEF26E00DED270 /* PinLogic.swift in Sources */,
 				ADEB67DC1CEEEA2A00DED270 /* AppDelegate.swift in Sources */,
+				ADEB68181CEEF36900DED270 /* LatestMap.swift in Sources */,
+				ADEB68301CEF00A700DED270 /* CollectionViewController.swift in Sources */,
+				ADEB68221CEEF3F800DED270 /* FlickrClient.swift in Sources */,
+				ADEB68281CEEFA7500DED270 /* PhotoCollectionViewCell.swift in Sources */,
+				ADEB680D1CEEEEDD00DED270 /* MapViewController.swift in Sources */,
+				ADEB68101CEEEF7D00DED270 /* Data.xcdatamodeld in Sources */,
+				ADEB68201CEEF3D800DED270 /* ApiClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -485,6 +553,7 @@
 				ADEB68051CEEEA2B00DED270 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ADEB68061CEEEA2B00DED270 /* Build configuration list for PBXNativeTarget "Virtual_Tourist_FatihUstokTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +562,7 @@
 				ADEB68081CEEEA2B00DED270 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ADEB68091CEEEA2B00DED270 /* Build configuration list for PBXNativeTarget "Virtual_Tourist_FatihUstokUITests" */ = {
 			isa = XCConfigurationList;
@@ -501,17 +571,20 @@
 				ADEB680B1CEEEA2B00DED270 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		ADEB67E21CEEEA2A00DED270 /* Virtual_Tourist_FatihUstok.xcdatamodeld */ = {
+		ADEB680E1CEEEF7D00DED270 /* Data.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				ADEB67E31CEEEA2A00DED270 /* Virtual_Tourist_FatihUstok.xcdatamodel */,
+				AD53E2D51CF00C4D0014F8D8 /* Data.xcdatamodel */,
+				AD53E2D41CF0094E0014F8D8 /* Data.xcdatamodel */,
+				ADEB680F1CEEEF7D00DED270 /* Data.xcdatamodel */,
 			);
-			currentVersion = ADEB67E31CEEEA2A00DED270 /* Virtual_Tourist_FatihUstok.xcdatamodel */;
-			path = Virtual_Tourist_FatihUstok.xcdatamodeld;
+			currentVersion = ADEB680F1CEEEF7D00DED270 /* Data.xcdatamodel */;
+			path = Data.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
